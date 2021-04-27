@@ -1,0 +1,103 @@
+body{
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		background: url('images/pgg.jpg');
+	}
+	.left{
+		position: absolute;
+		left: 60px;
+		top:20px;
+		
+		display: inline-block;
+		/*border: 2px solid red;*/
+
+
+
+	}
+	.left img{
+		width:136px;
+		
+	}
+	.left div{
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+
+	}
+	.mid{
+		display: block;
+		width:45%;
+		margin:20px auto;
+/*border: 2px solid green;*/
+		
+	}
+	.right{
+		position: absolute;
+		right: 34px;
+		top:20px;
+		
+		display: inline-block;
+		/*border: 2px solid yellow;*/
+		
+
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li{
+		color: white;
+		display: inline-block;
+		font-size: 27px;
+		font-weight: bold;
+		
+		
+	}
+	.navbar li a{
+		color: white;
+		text-decoration: none;
+		padding: 34px 10px;
+	}
+	.navbar li a:hover,.navbar li a.active{
+		text-decoration: underline;
+		color: grey;
+	}
+	.btn{
+		margin: 0px 9px;
+		background-color: black;
+		color: white;
+		padding: 4px 14px;
+		/*border: 2px solid grey;*/
+		border-radius: 10px;
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.btn:hover{
+		background-color: grey;
+	}
+	.container{
+		/*border: 2px solid white;*/
+		margin: 90px 6px;
+		padding: 75px;
+		width: 37%;
+		border-radius: 28px;
+	}
+	.form-group input{
+		font-size: 25px;
+		margin:11px auto;
+		text-align: center;
+		display: block;
+		width: 500px;
+		padding: 1px;
+		/*border: 2px solid black;*/
+		border-radius: 8px;
+	}
+	.container h1{
+		text-align: center;
+	}
+	.container button{
+		display: block;
+		width: 90%;
+		margin: 20px auto;
+	}
